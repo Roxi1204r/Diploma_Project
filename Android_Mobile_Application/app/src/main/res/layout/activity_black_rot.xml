@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grape_gradient"
+    android:padding="15dp"
+    tools:context=".BlackRotActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Black Rot"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+            android:text="@string/black_rot"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Disease Causes and Factors that favor its evolution"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:text="\u3000The black rot of the vine is one of the most common diseases that occur in areas where, during the growing season, the weather is hot and humid. Fungal infection can be present in all grape varieties, whether noble, hybrid or wild."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:justificationMode="inter_word"
+            android:text="\u3000\The factors that lead to the appearance and development of black rot in vines are:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="@string/etiological_factor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="@string/risk_factor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/risk_factors_br"/>
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="270dp"-->
+<!--            android:padding="5dp"-->
+<!--            android:src="@drawable/black_rot"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Black Rot Symptoms in vines"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="\u3000Black rot on the leaves first appears on the leaves at the base of the shoots. There are almost round spots on the surface of the leaves, 2-3 mm in diameter, yellowish, with darker edges (brown). Their shape can also be elongated if they cross a rib. Generally, on a leaf, there are no more than ten such spots. Usually, the attack is manifested on the mature leaves, but the young ones may also present the symptoms. Sometimes the spots may join, forming more significant areas of attack. At the periphery of the spots, black or brown punctate formations appear, which are, in fact, the fruits of the fungus."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:padding="5dp"
+            android:src="@drawable/black_rot_leaf"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Treatment"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="\u3000Being a fungal infection, the black rot of the vine can be prevented with fungicide treatments when the optimal conditions for infection occur. Specialists recommend the use of two or three different active substances, which must be alternated so that the fungus does not develop resistance and the treatment can no longer work."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Measures to prevent the appearance of Black Rot in vines"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="\u3000To prevent the black rot of vines from occurring, it is essential to take into account:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="@string/climatic_conditions"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="@string/agro_technical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:justificationMode="inter_word"
+            android:text="• removal and destruction by burning of shoots affected bunches (autumn or spring);\n• burning the attacked leaves;"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word"
+            android:text="@string/weed_control"/>
+    </LinearLayout>
+</ScrollView>
