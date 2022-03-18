@@ -28,3 +28,5 @@ The application for data visualization is a practical implementation on Android 
 Below are some screenshots from the application.
 
 ![mobile_app](./images/mobile_app.jpg)
+<p align = "center"><b>Android Application</b></p>
+<br>
