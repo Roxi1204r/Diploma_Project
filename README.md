@@ -1,11 +1,11 @@
-# Diploma_Project
+<h1><p align = "center"><b>Diploma Project</b></p></h1>
 
 The present project aims to implement a monitoring, control, display and alert system in a small vineyard. The block diagram of the entire system, from data collection to their visualization on the 
 phone screen is illustrated below.
 
 ![block_diagram](./images/block_diagram.jpg)
 
-<figcaption align = "center"><b>System Architecture</b></figcaption>
+<p align = "center"><b>System Architecture</b></p>
 <br>
 
 The system for data collection consists of a Raspberry Pi Model 4 with Raspberry Pi OS and a set of environmental sensors connected to the board. 
@@ -18,7 +18,7 @@ The sensors used in the project are:
 
 ![hardware_system](./images/hardware_system.jpg)
 
-<figcaption align = "center"><b>Hardware System</b></figcaption>
+<p align = "center"><b>Hardware System</b></p>
 <br>
 
 For the irrigation system is used a submersible water pump controlled by a relay. The pump activates only when the value measured by the capacitive soil sensor drops under a specific threshold. 
